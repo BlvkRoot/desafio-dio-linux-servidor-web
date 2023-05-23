@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Atualizando repositorios e Servidor!"
 
-apt update -y
-apt upgrade -y
+apt-get update
+apt-get upgrade -y
 
 echo "Servidor Atualizado!"
 
@@ -10,7 +10,7 @@ echo "--------------------------------------"
 
 echo "Instalando Servidor Apache"
 
-apt install apache2 -y
+apt-get install apache2 -y
 
 echo "Servidor Apache instalado!"
 
@@ -18,7 +18,7 @@ echo "--------------------------------------"
 
 echo "Instalando Unzip"
 
-apt install unzip -y
+apt-get install unzip -y
 
 echo "Unzip instalado"
 
